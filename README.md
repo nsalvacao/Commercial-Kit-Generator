@@ -52,7 +52,7 @@ Detailed documentation covering the strategy, methodology, and technical archite
 | **[🛡️ Methodology](docs/Framework%20Assurance%20&%20Methodology%20-%20Commercial%20Kit%20Generator.md)** | How we ensure quality using AIDA, SPIN, and other frameworks. | Product, Marketing |
 | **[⚙️ Technical Report](docs/Technical%20Report%20-%20Commercial%20Kit%20Generator.md)** | In-depth look at the architecture, extraction pipeline, and stack. | Developers, CTOs |
 | **[📊 Datasheet](docs/commercial-kit-generator-datasheet.md)** | Complete technical specifications and feature breakdown. | Technical Buyers |
-| **[🚀 Go-to-Market Plan](docs/Write%20Your%20Entire%20Go-to-Market%20Plan.md)** | Strategic execution plan for launching this tool. | Founders, Strategy |
+| **[🚀 Go-to-Market Plan](Write%20Your%20Entire%20Go-to-Market%20Plan%20in%20Minutes.md)** | Strategic execution plan for launching this tool. | Founders, Strategy |
 
 ---
 
