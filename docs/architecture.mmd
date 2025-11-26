@@ -1,0 +1,47 @@
+graph TD
+    %% Styles
+    classDef user fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef client fill:#e1f5fe,stroke:#0277bd,stroke-width:2px;
+    classDef cloud fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef storage fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
+
+    %% Actors
+    User((User)):::user
+
+    %% Subgraph: Client Side (Browser)
+    subgraph Client_Side [Browser / React App]
+        UI[UI Layer]:::client
+        State[State Manager]:::client
+        Parser[File Parser]:::client
+        
+        subgraph Local_Storage [Local Storage]
+            Cache[(Context Pack)]:::storage
+            Settings[(User Preferences)]:::storage
+        end
+    end
+
+    %% Subgraph: AI Cloud
+    subgraph AI_Cloud [Anthropic Cloud]
+        API[Claude API]:::cloud
+        LLM[Sonnet 3.5/4 Model]:::cloud
+    end
+
+    %% Flows
+    User -->|Uploads MD/TXT| UI
+    UI -->|Raw Content| Parser
+    Parser -->|Text Chunks| State
+    
+    State -->|1. Context Extraction Prompt| API
+    API -->|JSON Structure| State
+    State -->|Save Context| Cache
+    
+    State -->|2. Asset Generation Prompt| API
+    API -->|Markdown Content| State
+    
+    State -->|Render| UI
+    UI -->|Download/Copy| User
+
+    %% Notes
+    note right of API: Two-Phase Generation:
+1. Extraction (JSON)
+2. Creation (Markdown)

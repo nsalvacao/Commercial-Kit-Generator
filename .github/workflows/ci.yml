@@ -1,0 +1,32 @@
+name: CI/CD Quality Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    # In a real project, we would install dependencies and run lint/test.
+    # Since this is a showcase/artifact repo without a package.json root in the main dir yet,
+    # we will focus on Markdown linting which is crucial for documentation-heavy repos.
+    
+    - name: Lint Markdown
+      uses: DavidAnson/markdownlint-cli2-action@v16
+      with:
+        globs: |
+          README.md
+          docs/*.md
+          SECURITY.md
+          CONTRIBUTING.md
