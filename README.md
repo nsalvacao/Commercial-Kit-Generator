@@ -7,7 +7,7 @@
 
 > **⚡ AI-powered commercial materials generator that transforms your project documents into 9 professional marketing assets in minutes.**
 
-**🔗 [Try it Live](https://claude.ai/public/artifacts/b89ad2f9-073d-4ab4-8322-4a3527e86028)** • **Made by [Nuno Salvação](https://www.linkedin.com/in/nsalvacao/)**
+**🔗 [Try it Live](https://claude.ai/public/artifacts/b19fd567-a2ea-4ed0-81f0-5fd25708d342)** • **Made by [Nuno Salvação](https://www.linkedin.com/in/nsalvacao/)**
 
 ---
 
@@ -155,7 +155,7 @@ Built for an **AI-like modern aesthetic** with accessibility, proper contrast, a
 This is a **showcase project**. Feedback welcome!
 
 **To provide feedback:**
-1. [Try the live app](https://claude.ai/public/artifacts/b89ad2f9-073d-4ab4-8322-4a3527e86028)
+1. [Try the live app](https://claude.ai/public/artifacts/b19fd567-a2ea-4ed0-81f0-5fd25708d342)
 2. Open an issue on GitHub
 3. [Connect on LinkedIn](https://www.linkedin.com/in/nsalvacao/)
 
@@ -179,6 +179,6 @@ Special thanks to **Anthropic** for Claude & Artifacts, and the open-source comm
 
 **⚡ Made with AI by [Nuno Salvação](https://www.linkedin.com/in/nsalvacao/) • Transforming documents into deals**
 
-[![Try Live](https://img.shields.io/badge/Try%20Live%20Demo-8A2BE2?style=for-the-badge)](https://claude.ai/public/artifacts/b89ad2f9-073d-4ab4-8322-4a3527e86028)
+[![Try Live](https://img.shields.io/badge/Try%20Live%20Demo-8A2BE2?style=for-the-badge)](https://claude.ai/public/artifacts/b19fd567-a2ea-4ed0-81f0-5fd25708d342)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/nsalvacao/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/nsalvacao)
